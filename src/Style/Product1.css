@@ -1,0 +1,39 @@
+.psList{
+    margin: 0 -8px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: aliceblue;
+}
+.card-img-top{
+    height:300px;
+}
+
+.card{
+    width: 18rem !important;
+}
+.card-title{
+    color: #024;
+    overflow: hidden;
+}
+.card-text{
+    color: #00e;
+    font-size: 14px;
+    line-height: 18px;
+
+}
+.card-link{
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #eee;
+    margin: 0 10px 10px;
+    border-radius: 0.5em;
+    text-decoration: auto;
+}
+
+.card-body{
+    text-decoration: none;
+}

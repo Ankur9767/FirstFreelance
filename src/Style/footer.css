@@ -1,0 +1,49 @@
+.footer{
+     display: flex;
+     flex-direction: row;     
+     justify-content: space-between;
+
+}
+.ContactUss{
+    text-align: left;
+    margin-left: 100px;
+    width: 35vw;
+}
+.ContactHead{
+    text-align: left;
+    margin-bottom: 20px;
+}
+.addr3{
+    font-size: 17px;
+    font-weight: 400;
+}
+.Linkss{
+    text-align: left;
+    margin-left: 100px;
+    width: 35vw;
+}
+.L1{
+    text-decoration: none;
+    color: white
+}
+h4{
+    font-weight: 200;
+    font-size: 20px;
+    border-bottom: 2px solid white;
+    width: max-content;
+    padding: 10px;
+
+}
+
+@media (max-width: 768px) {
+    .ContactUss{
+    text-align: left;
+    margin-left: 10px;
+    width: 100vw;
+    }
+    .Linkss{
+        text-align: left;
+        margin-left: 10px;
+        width: 100vw;
+    }
+}

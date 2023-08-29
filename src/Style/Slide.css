@@ -1,0 +1,37 @@
+
+.card-img{
+    height: 400px;
+    border-right: 2px solid rgb(156, 25, 182);
+    margin-top: 80px;
+    
+   
+
+}
+.Facewash{
+    background-color: rgb(163, 11, 163,);
+
+}
+.Caption{
+    background-color: rgb(235, 60, 16);
+    color: white;
+    overflow-y: hidden;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-right: 2px solid white;
+}
+.pLink{
+    text-decoration: none;
+}
+
+/* Default font size */
+
+  
+  /* Media query for smartphones */
+  @media only screen and (max-width: 600px) {
+    .card-img{
+        height: 300px;
+       
+    
+    }
+  }
+  

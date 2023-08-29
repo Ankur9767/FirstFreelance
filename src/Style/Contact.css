@@ -1,0 +1,115 @@
+.ContactMain{     
+      justify-content: space-between !important;
+  }
+  
+  h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  .Contact{
+    float: left;
+    width: 60%;
+    border: 1px solid #eee;
+    padding: 20px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    min-height: 500px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    margin-top: 10px;
+    
+  }
+  .ReachUs{
+    float: left;
+    width: 40%;
+    padding-left: 20px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    margin-left: 100px;
+    width: 40% !important;
+  }
+  .Addr{
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .Addr2{
+    margin-left: 20px;
+
+  }
+  input,
+  textarea {
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #f18810;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #eb6d05;
+  }
+  .Addition{
+    background-color: #eee;
+    padding: 20px;
+    margin: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+  }
+  
+
+  @media (max-width: 767px) {
+    .ContactMain {
+      flex-direction: column;
+      align-items: center !important;
+    }
+  
+    .Contact {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .ReachUs {     
+    
+      padding-left: 1px;
+      padding-top: 20px;
+      box-sizing: border-box;
+      margin-left: 0px;
+      width: 90% !important;
+    }
+    .Addr2{
+      margin-left: 10px !important;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .Contact {
+      width: 70%;
+      margin: 0 auto;
+    }
+  
+    .ReachUs {
+      width: 30%;
+      padding-left: 20px;
+      padding-top: 20px;
+      margin: 0;
+    }
+  }
+  

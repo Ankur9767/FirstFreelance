@@ -1,0 +1,50 @@
+.sec_tittle{
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    text-align: center;
+    line-height: 40px;
+    font-family: Poppins,sans-serif;
+}
+.card{
+    width: 28vw;
+    margin: 30px;
+}
+.bi{
+    max-width: 100%;
+    height: auto;
+    width: 53px !important;
+    align-items: center;
+    color: rgb(43, 11, 43);
+
+}
+.card-header{
+    text-align: center;
+    
+}
+.card-body{
+    font-size: 24px;
+color: #999 !important;
+margin-bottom: 3px;
+text-align: center;
+}
+.card-footer{
+    text-align: center;
+    background-color: rgb(235, 60, 16,0.9) !important;
+    color: white !important;
+    font-size: 24px;
+}
+
+#font_size{
+    font-size: 14px;
+}
+.aboutSection{
+    margin: 0;
+    padding: 40px 0 !important;
+    list-style: none !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+    
+}
